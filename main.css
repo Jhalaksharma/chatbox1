@@ -1,0 +1,123 @@
+.topnav {
+  overflow: hidden;
+  background-color: white;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: black;
+  color: white;
+}
+#main{
+  max-width: 100%;
+  margin-top: 1rem;
+}
+
+
+#col-sm2{
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
+  height: 90vh;
+  border: .1rem solid brown;
+  border-radius: 1rem;
+}
+#col-sm1{
+  padding: 10px 10px 0 0;
+  margin: 10px 10px 10px 10px;
+  height: 70vh;
+  border: .1rem solid brown;
+  border-radius: 1rem;
+}
+#col-sm3{
+  padding-top: 1rem;
+  margin: 10px 10px 10px 10px;
+  height: 80vh;
+  border: .1rem solid brown;
+  border-radius: 1rem;
+}
+#input{
+  position: relative;
+  top: 90%;
+}
+#navbarDarkDropdownMenuLink{
+  position: relative;
+  left:0%;
+}
+#user{
+  font-size: 2.45rem;
+  color:white;
+  position: relative;
+  right: 77rem;
+  top: 0rem;
+}
+#hamburger{
+  position: relative;
+  top:-10%;
+  font-size: 2rem;
+}
+#navbar{
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+ul{
+  list-style-type: none;
+}
+.listitem{
+	text-decoration: none;
+  margin-bottom: 1.5rem;
+}
+.listitem::marker{
+  visibility: hidden;
+}
+.link{
+  text-decoration: none;
+  color: brown;
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+.link:hover{
+  color: tan;
+
+}
+.link2{
+  text-decoration: none;
+  color: brown;
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+.sublink{
+color: black;
+font-size: 1rem;
+font-weight: bold;
+}
+
+#button-addon2:hover{
+ background-color: brown;
+}
